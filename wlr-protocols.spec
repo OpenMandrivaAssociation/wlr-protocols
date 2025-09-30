@@ -1,9 +1,8 @@
 %global forgeurl https://gitlab.freedesktop.org/wlroots/wlr-protocols
-%global commit 2b8d43325b7012cc3f9b55c08d26e50e42beac7d
-%global shortcommit %(c=%{commit}; echo ${c:0:7})
-
+%global commit a741f0ac5d655338a5100fc34bc8cec87d237346
+%global date 20250930
 Name:           wlr-protocols
-Version:        1^git%{shortcommit}
+Version:        0~%{date}
 Release:        1
 Summary:        Wayland protocols designed for use in wlroots (and other compositors)
 License:        MIT
